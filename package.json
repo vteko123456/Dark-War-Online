@@ -1,0 +1,9 @@
+{
+  "name": "dark-war-online",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DARK WAR online rooms: serves the game and relays the two players of each room (no dependencies).",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}

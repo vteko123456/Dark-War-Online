@@ -1,0 +1,9 @@
+# Render.com blueprint (free web service). Repo root = this "online" folder.
+services:
+  - type: web
+    name: dark-war-online
+    runtime: node
+    plan: free
+    buildCommand: "echo no build step"
+    startCommand: "node server.js"
+    healthCheckPath: /health
